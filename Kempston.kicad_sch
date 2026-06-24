@@ -6,13 +6,13 @@
 	(paper "A3")
 	(title_block
 		(title "ZX SPIDER 48 LBA")
-		(date "2026-06-21")
-		(rev "1.0")
+		(date "2026-06-24")
+		(rev "1.1")
 		(company "Drawn By LiveBoxAndy ")
-		(comment 1 "Used Kicad freerouter with some manual additions around 5V power routing")
-		(comment 2 "Moved resistors out from under chips and moved various components around to suit Kicad 10")
-		(comment 3 "Changed DIN connector to be 9 Pin, the same as ZX Max 128 and others")
-		(comment 4 "Based on schematics and gerbers from https://github.com/konkotgit/ZX-48-Spider Rev 1.1")
+		(comment 1 "See ReadMe.MD for more details")
+		(comment 2 "Moved resistors from under chips and moved various components around to suit Kicad 10")
+		(comment 3 "Changed MiniDIN to 9 Pin, the same as ZX Max 128 and others. Added +/-12V option.")
+		(comment 4 "Based on schematics/layout from https://github.com/konkotgit/ZX-48-Spider Rev 1.1")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS00"

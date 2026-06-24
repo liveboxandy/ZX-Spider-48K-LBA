@@ -6,13 +6,13 @@
 	(paper "A3")
 	(title_block
 		(title "ZX SPIDER 48 LBA")
-		(date "2026-06-21")
-		(rev "1.0")
+		(date "2026-06-24")
+		(rev "1.1")
 		(company "Drawn By LiveBoxAndy ")
-		(comment 1 "Used Kicad freerouter with some manual additions around 5V power routing")
-		(comment 2 "Moved resistors out from under chips and moved various components around to suit Kicad 10")
-		(comment 3 "Changed DIN connector to be 9 Pin, the same as ZX Max 128 and others")
-		(comment 4 "Based on schematics and gerbers from https://github.com/konkotgit/ZX-48-Spider Rev 1.1")
+		(comment 1 "See ReadMe.MD for more details")
+		(comment 2 "Moved resistors from under chips and moved various components around to suit Kicad 10")
+		(comment 3 "Changed MiniDIN to 9 Pin, the same as ZX Max 128 and others. Added +/-12V option.")
+		(comment 4 "Based on schematics/layout from https://github.com/konkotgit/ZX-48-Spider Rev 1.1")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC04"
@@ -10623,6 +10623,234 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "_Symbols:TBA_1-0522E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "PS"
+				(at 29.21 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TBA_1-0522E"
+				(at 29.21 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "TBA10522E"
+				(at 29.21 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://tracopower.com/tba1e-datasheet/"
+				(at 29.21 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "1 Watt DC/DC converter, industrial, +/-10% input, short circuit protection, unregulated, encapsulated, SIP-7"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "10.35"
+				(at 29.21 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "495-TBA1-0522E"
+				(at 29.21 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TBA-1-0522E?qs=byeeYqUIh0N72%2FQSgieQ2g%3D%3D"
+				(at 29.21 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Traco Power"
+				(at 29.21 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TBA 1-0522E"
+				(at 29.21 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "TBA_1-0522E_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 27.94 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+VIN_(VCC)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "-VIN_(GND)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "-VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "COMMON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "_Symbols:Z84C0010PEG"
 			(pin_names
 				(offset 1.016)
@@ -11910,6 +12138,12 @@
 		(uuid "09e71578-1c46-4da6-9d0a-69abea750ab6")
 	)
 	(junction
+		(at 91.186 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1027f6c3-2d44-4194-a620-b5e8f30896c5")
+	)
+	(junction
 		(at 157.48 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11950,6 +12184,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "201d64b8-3dfc-4a2c-b493-89d65ab3f398")
+	)
+	(junction
+		(at 83.82 276.606)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23ec0b11-63b3-4dbf-8538-ef70b6786b2e")
 	)
 	(junction
 		(at 53.34 264.16)
@@ -12238,6 +12478,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92dfe01f-03bc-4197-b208-34b775fe6364")
+	)
+	(junction
+		(at 91.186 276.606)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93210090-8297-460b-81be-61694df0a8f2")
 	)
 	(junction
 		(at 93.98 228.6)
@@ -12604,10 +12850,6 @@
 		(uuid "37744221-ba2c-4e25-bddd-3ec84422b5fc")
 	)
 	(no_connect
-		(at 396.24 71.12)
-		(uuid "45c368dd-8416-4206-bf4a-fc9715c04ff1")
-	)
-	(no_connect
 		(at 266.954 170.18)
 		(uuid "4f52b72a-f573-4346-8af6-0d6878f6470b")
 	)
@@ -12658,10 +12900,6 @@
 	(no_connect
 		(at 266.954 124.46)
 		(uuid "d37569da-2e6b-44a3-96f6-9025a525d67a")
-	)
-	(no_connect
-		(at 396.24 73.66)
-		(uuid "dcb62a5a-a833-4ba4-8103-1e409576ada5")
 	)
 	(no_connect
 		(at 266.954 142.24)
@@ -12980,6 +13218,16 @@
 			(type default)
 		)
 		(uuid "1036dc29-53fd-41ad-8247-9619c9d8132d")
+	)
+	(wire
+		(pts
+			(xy 91.186 271.526) (xy 91.186 276.606)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10bea8e1-e2cc-4c84-8519-3c10768fc6f5")
 	)
 	(wire
 		(pts
@@ -13683,6 +13931,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 276.606) (xy 83.82 278.892)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38059ac8-255b-4367-9c64-8a6f99ae9682")
+	)
+	(wire
+		(pts
 			(xy 78.74 83.566) (xy 72.39 83.566)
 		)
 		(stroke
@@ -14080,6 +14338,16 @@
 			(type default)
 		)
 		(uuid "513d0c96-3f66-461f-92f1-202881eec27b")
+	)
+	(wire
+		(pts
+			(xy 111.506 271.526) (xy 91.186 271.526)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ce4126-fdef-421a-9dda-01c2654a2cda")
 	)
 	(wire
 		(pts
@@ -14693,6 +14961,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.186 264.16) (xy 92.71 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c0494c-816e-457f-bcc0-b4d8ffbc7230")
+	)
+	(wire
+		(pts
 			(xy 251.46 52.07) (xy 242.316 52.07)
 		)
 		(stroke
@@ -15003,6 +15281,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.506 276.606) (xy 91.186 276.606)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81a7d925-e59e-4f78-9fd3-0b629ded7949")
+	)
+	(wire
+		(pts
 			(xy 53.34 149.86) (xy 53.34 153.67)
 		)
 		(stroke
@@ -15073,7 +15361,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 264.16) (xy 92.71 264.16)
+			(xy 83.82 264.16) (xy 91.186 264.16)
 		)
 		(stroke
 			(width 0)
@@ -15383,6 +15671,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.186 276.606) (xy 83.82 276.606)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bbca3ac-bbf6-4f6b-8017-163a02e71011")
+	)
+	(wire
+		(pts
 			(xy 259.334 255.27) (xy 259.08 255.27)
 		)
 		(stroke
@@ -15500,6 +15798,16 @@
 			(type default)
 		)
 		(uuid "a12c19cc-8099-4609-be3b-25bbc3df6342")
+	)
+	(wire
+		(pts
+			(xy 91.186 268.986) (xy 91.186 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a197e4ee-3891-4239-bd45-ff9efe76272f")
 	)
 	(wire
 		(pts
@@ -16423,6 +16731,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 276.606) (xy 83.82 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1b7a35-4ae0-43b6-82bd-b535d27c1e90")
+	)
+	(wire
+		(pts
 			(xy 273.558 255.27) (xy 267.462 255.27)
 		)
 		(stroke
@@ -16790,6 +17108,16 @@
 			(type default)
 		)
 		(uuid "fabb5240-badd-49c8-9dac-9c3afc975548")
+	)
+	(wire
+		(pts
+			(xy 111.506 268.986) (xy 91.186 268.986)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fafe2689-3317-4b72-8caf-549932be0808")
 	)
 	(wire
 		(pts
@@ -18973,6 +19301,30 @@
 			)
 		)
 	)
+	(global_label "-12V"
+		(shape input)
+		(at 396.24 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ceaaf1d-0c85-4823-963c-43f17da2d6ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 404.3052 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MREQ"
 		(shape input)
 		(at 266.954 177.8 0)
@@ -19957,6 +20309,30 @@
 			)
 		)
 	)
+	(global_label "-12V"
+		(shape input)
+		(at 111.506 274.066 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8384c8a3-db90-405b-b800-5c42f82adafa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.4408 274.066 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "A8"
 		(shape input)
 		(at 363.22 125.984 0)
@@ -20485,6 +20861,30 @@
 			)
 		)
 	)
+	(global_label "+12V"
+		(shape input)
+		(at 111.506 279.146 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97de97f2-862e-41c0-8b1e-a5a602363b9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.4408 279.146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "KB2"
 		(shape input)
 		(at 221.234 119.38 180)
@@ -20858,6 +21258,30 @@
 		(uuid "a5417ae8-3682-4846-9e08-23c6ae80cb46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 329.692 152.4507 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+12V"
+		(shape input)
+		(at 396.24 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a587de73-f130-48bb-bbbd-3b790ee17e26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 404.3052 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24349,6 +24773,159 @@
 			(project "ZXSpider48"
 				(path "/c8dee8da-cc77-415a-9e31-9e236c26c0e6"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_Symbols:TBA_1-0522E")
+		(at 111.506 268.986 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ba46eb9-66b1-4f62-a475-895a77293a23")
+		(property "Reference" "PS1"
+			(at 141.224 272.7959 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TBA_1-0522E"
+			(at 141.224 275.3359 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_MOD:TBA10522E"
+			(at 140.716 363.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://tracopower.com/tba1e-datasheet/"
+			(at 140.716 463.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "1 Watt DC/DC converter, industrial, +/-10% input, short circuit protection, unregulated, encapsulated, SIP-7"
+			(at 111.506 268.986 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "10.35"
+			(at 140.716 663.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "495-TBA1-0522E"
+			(at 140.716 763.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TBA-1-0522E?qs=byeeYqUIh0N72%2FQSgieQ2g%3D%3D"
+			(at 140.716 863.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Traco Power"
+			(at 140.716 963.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TBA 1-0522E"
+			(at 140.716 1063.906 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5"
+			(uuid "baff11c0-3f96-4a31-b454-471beb6cd5a5")
+		)
+		(pin "4"
+			(uuid "b01992ce-fd8d-4da1-a920-654ca066ab41")
+		)
+		(pin "1"
+			(uuid "2b61f6c1-56df-4eb3-aafd-e1c2b10aa21e")
+		)
+		(pin "6"
+			(uuid "81442e0c-a0b7-4296-a169-f12f0fb84886")
+		)
+		(pin "2"
+			(uuid "41bbeea2-5a23-4b61-8c1f-db02961d1fa4")
+		)
+		(instances
+			(project "ZXSpider48"
+				(path "/c8dee8da-cc77-415a-9e31-9e236c26c0e6"
+					(reference "PS1")
 					(unit 1)
 				)
 			)
@@ -32388,7 +32965,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 274.32 0)
+		(at 83.82 278.892 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32399,7 +32976,7 @@
 		(fields_autoplaced yes)
 		(uuid "749beae3-2944-454a-8bff-0ec25404dfb3")
 		(property "Reference" "#PWR047"
-			(at 83.82 280.67 0)
+			(at 83.82 285.242 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32410,7 +32987,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 279.4 0)
+			(at 83.82 283.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32420,7 +32997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 274.32 0)
+			(at 83.82 278.892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32431,7 +33008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 274.32 0)
+			(at 83.82 278.892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32442,7 +33019,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 274.32 0)
+			(at 83.82 278.892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
