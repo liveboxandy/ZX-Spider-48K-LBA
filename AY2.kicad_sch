@@ -6,12 +6,10 @@
 	(paper "A3")
 	(title_block
 		(title "ZX SPIDER 48 LBA")
-		(date "2026-06-24")
-		(rev "1.1")
+		(date "2026-06-25")
+		(rev "1.2")
 		(company "Drawn By LiveBoxAndy ")
-		(comment 1 "See ReadMe.MD for more details")
-		(comment 2 "Moved resistors from under chips and moved various components around to suit Kicad 10")
-		(comment 3 "Changed MiniDIN to 9 Pin, the same as ZX Max 128 and others. Added +/-12V option.")
+		(comment 3 "See ReadMe.MD for more details")
 		(comment 4 "Based on schematics/layout from https://github.com/konkotgit/ZX-48-Spider Rev 1.1")
 	)
 	(lib_symbols
