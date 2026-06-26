@@ -853,193 +853,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -12312,6 +12125,12 @@
 		(uuid "53c7a3e1-16e6-4597-8817-d3cf900c70b4")
 	)
 	(junction
+		(at 198.12 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aac8357-7eda-4cda-a77f-89702434b3c1")
+	)
+	(junction
 		(at 58.166 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13429,16 +13248,6 @@
 	)
 	(wire
 		(pts
-			(xy 197.104 65.786) (xy 197.104 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ca92ee2-f883-405f-820d-460be8506c59")
-	)
-	(wire
-		(pts
 			(xy 137.668 95.25) (xy 137.668 96.52)
 		)
 		(stroke
@@ -13796,6 +13605,16 @@
 			(type default)
 		)
 		(uuid "31216a5f-0136-480c-988c-136f7eb8baab")
+	)
+	(wire
+		(pts
+			(xy 198.12 69.85) (xy 197.104 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3143d47b-51b3-4678-8aeb-afa06eb1b01b")
 	)
 	(wire
 		(pts
@@ -16839,7 +16658,7 @@
 	)
 	(wire
 		(pts
-			(xy 221.996 69.85) (xy 197.104 69.85)
+			(xy 221.996 69.85) (xy 198.12 69.85)
 		)
 		(stroke
 			(width 0)
@@ -24239,7 +24058,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 197.104 65.786 0)
+		(at 198.12 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24250,7 +24069,7 @@
 		(fields_autoplaced yes)
 		(uuid "02ad524c-84a9-459b-a6c4-b5135f22e91f")
 		(property "Reference" "#PWR080"
-			(at 197.104 69.596 0)
+			(at 198.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24261,7 +24080,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 197.104 60.96 0)
+			(at 198.12 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24271,7 +24090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 197.104 65.786 0)
+			(at 198.12 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24282,7 +24101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 197.104 65.786 0)
+			(at 198.12 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24293,7 +24112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 197.104 65.786 0)
+			(at 198.12 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31989,8 +31808,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 192.024 69.85 180)
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 192.024 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32000,7 +31819,7 @@
 		(dnp no)
 		(uuid "5fa64467-60ef-4260-bbaa-aced8ea7effa")
 		(property "Reference" "J5"
-			(at 191.77 74.93 0)
+			(at 191.77 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32010,7 +31829,7 @@
 			)
 		)
 		(property "Value" "ROM_SW"
-			(at 192.024 65.278 0)
+			(at 192.024 67.818 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32019,8 +31838,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 192.024 69.85 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 192.024 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32031,7 +31850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 192.024 69.85 0)
+			(at 192.024 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32042,7 +31861,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 192.024 69.85 0)
+			(at 192.024 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32054,9 +31873,6 @@
 		)
 		(pin "2"
 			(uuid "79f5b76c-9c8b-4def-bb5e-61ee7de1a103")
-		)
-		(pin "3"
-			(uuid "67deae89-eca5-48f7-b3f3-7a5940f9c851")
 		)
 		(pin "1"
 			(uuid "439132db-d457-46ea-a246-6b2400296b0c")
@@ -33913,6 +33729,85 @@
 			(project "ZXSpider48"
 				(path "/c8dee8da-cc77-415a-9e31-9e236c26c0e6"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 198.12 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b77ef8b-834f-4f51-8bf7-1a73d6f92425")
+		(property "Reference" "R74"
+			(at 200.66 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 198.12 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 196.342 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 198.12 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "019bfde0-88c7-45b9-adb2-94096c8bb421")
+		)
+		(pin "1"
+			(uuid "89d58b51-71c4-4d66-aac4-b5a01bc82c7d")
+		)
+		(instances
+			(project "ZXSpider48"
+				(path "/c8dee8da-cc77-415a-9e31-9e236c26c0e6"
+					(reference "R74")
 					(unit 1)
 				)
 			)

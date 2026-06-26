@@ -2,18 +2,18 @@
 <export version="E">
   <design>
     <source>E:\Kicad\ZXSpider48\ZXSpider48.kicad_sch</source>
-    <date>2026-06-25T18:49:19</date>
+    <date>2026-06-26T12:25:54</date>
     <tool>Eeschema 10.0.4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ZX SPIDER 48 LBA</title>
         <company>Drawn By LiveBoxAndy </company>
         <rev>1.2</rev>
-        <date>2026-06-24</date>
+        <date>2026-06-25</date>
         <source>ZXSpider48.kicad_sch</source>
-        <comment number="1" value="See ReadMe.MD for more details"/>
+        <comment number="1" value=""/>
         <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="3" value="See ReadMe.MD for more details"/>
         <comment number="4" value="Based on schematics/layout from https://github.com/konkotgit/ZX-48-Spider Rev 1.1"/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
@@ -27,11 +27,11 @@
         <title>ZX SPIDER 48 LBA</title>
         <company>Drawn By LiveBoxAndy </company>
         <rev>1.2</rev>
-        <date>2026-06-24</date>
+        <date>2026-06-25</date>
         <source>AY2.kicad_sch</source>
-        <comment number="1" value="See ReadMe.MD for more details"/>
+        <comment number="1" value=""/>
         <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="3" value="See ReadMe.MD for more details"/>
         <comment number="4" value="Based on schematics/layout from https://github.com/konkotgit/ZX-48-Spider Rev 1.1"/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
@@ -45,11 +45,11 @@
         <title>ZX SPIDER 48 LBA</title>
         <company>Drawn By LiveBoxAndy </company>
         <rev>1.2</rev>
-        <date>2026-06-24</date>
+        <date>2026-06-25</date>
         <source>Kempston.kicad_sch</source>
-        <comment number="1" value="See ReadMe.MD for more details"/>
+        <comment number="1" value=""/>
         <comment number="2" value=""/>
-        <comment number="3" value=""/>
+        <comment number="3" value="See ReadMe.MD for more details"/>
         <comment number="4" value="Based on schematics/layout from https://github.com/konkotgit/ZX-48-Spider Rev 1.1"/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
@@ -839,14 +839,14 @@
     </comp>
     <comp ref="J5">
       <value>ROM_SW</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
-        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
         <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="ZXSpider48"/>
       <property name="Sheetfile" value="ZXSpider48.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -858,7 +858,6 @@
           <pins>
             <pin num="1"/>
             <pin num="2"/>
-            <pin num="3"/>
           </pins>
         </unit>
       </units>
@@ -2908,6 +2907,31 @@
         </unit>
       </units>
     </comp>
+    <comp ref="R74">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ZXSpider48"/>
+      <property name="Sheetfile" value="ZXSpider48.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b77ef8b-834f-4f51-8bf7-1a73d6f92425</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
     <comp ref="RN2">
       <value>10K</value>
       <footprint>Resistor_THT:R_Array_SIP9</footprint>
@@ -3200,7 +3224,7 @@
       <property name="ki_keywords" value="HCMOS not inv"/>
       <property name="ki_fp_filters" value="DIP*W7.62mm* SSOP?14* TSSOP?14*"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b894dc6d-5884-403f-9b5b-f873576056d9 3a6651f7-ff2a-456f-a193-83e63b3a13b4 905c36a7-757b-46ac-a049-c20d27a688e4 47663192-d0d0-4b5f-b3d4-8e47b7873e28 21f6e590-31a9-47de-8e0e-ca66b3758827 4b937828-2230-404c-b1c3-d1a059658f29 20deb23f-240f-4937-a0db-c659a3777f0e</tstamps>
+      <tstamps>905c36a7-757b-46ac-a049-c20d27a688e4 47663192-d0d0-4b5f-b3d4-8e47b7873e28 3a6651f7-ff2a-456f-a193-83e63b3a13b4 4b937828-2230-404c-b1c3-d1a059658f29 21f6e590-31a9-47de-8e0e-ca66b3758827 b894dc6d-5884-403f-9b5b-f873576056d9 20deb23f-240f-4937-a0db-c659a3777f0e</tstamps>
       <units>
         <unit name="A">
           <pins>
@@ -3889,25 +3913,32 @@
       </units>
     </comp>
     <comp ref="J20">
-      <value>Conn_01x01</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
-      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <value>AY3_IOA</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
-        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
         <field name="Datasheet"/>
-        <field name="Description">Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value="AY2"/>
       <property name="Sheetfile" value="Kempston.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/AY2/" tstamps="/784c5548-3888-4820-9f8e-441c9fec3986/"/>
-      <tstamps>3b99b661-91fe-4f36-aa8d-23791e783409</tstamps>
+      <tstamps>251a8760-595c-4d1c-967b-e6561dee6332</tstamps>
       <units>
         <unit name="A">
           <pins>
             <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
           </pins>
         </unit>
       </units>
@@ -4540,22 +4571,6 @@
         <pin num="3" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x01">
-      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x01</field>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description">Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x02">
       <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <footprints>
@@ -4571,24 +4586,6 @@
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x03">
-      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x03</field>
-        <field name="Footprint"/>
-        <field name="Datasheet"/>
-        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x08">
@@ -5559,7 +5556,6 @@
       <node ref="J15" pin="B3" pinfunction="+5_B3" pintype="passive"/>
       <node ref="J16" pin="7" pinfunction="7_7" pintype="passive"/>
       <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
-      <node ref="J5" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
       <node ref="J6" pin="2" pinfunction="2_2" pintype="passive"/>
       <node ref="PS1" pin="1" pinfunction="+VIN(VCC)_1" pintype="input"/>
       <node ref="Q2" pin="1" pinfunction="C_1" pintype="passive"/>
@@ -5578,6 +5574,7 @@
       <node ref="R70" pin="1" pintype="passive"/>
       <node ref="R71" pin="1" pintype="passive"/>
       <node ref="R73" pin="2" pintype="passive"/>
+      <node ref="R74" pin="1" pintype="passive"/>
       <node ref="RN1" pin="1" pinfunction="common_1" pintype="passive"/>
       <node ref="RN2" pin="1" pinfunction="common_1" pintype="passive"/>
       <node ref="RN3" pin="1" pinfunction="common_1" pintype="passive"/>
@@ -5996,30 +5993,37 @@
       <node ref="U4" pin="21" pinfunction="IOA0_21" pintype="bidirectional"/>
     </net>
     <net code="48" name="IOA1" class="Default">
+      <node ref="J20" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="IOA1_13" pintype="bidirectional"/>
       <node ref="U4" pin="20" pinfunction="IOA1_20" pintype="bidirectional"/>
     </net>
     <net code="49" name="IOA2" class="Default">
+      <node ref="J20" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="IOA2_12" pintype="bidirectional"/>
       <node ref="U4" pin="19" pinfunction="IOA2_19" pintype="bidirectional"/>
     </net>
     <net code="50" name="IOA3" class="Default">
+      <node ref="J20" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="IOA3_11" pintype="bidirectional"/>
       <node ref="U4" pin="18" pinfunction="IOA3_18" pintype="bidirectional"/>
     </net>
     <net code="51" name="IOA4" class="Default">
+      <node ref="J20" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="IOA4_10" pintype="bidirectional"/>
       <node ref="U4" pin="17" pinfunction="IOA4_17" pintype="bidirectional"/>
     </net>
     <net code="52" name="IOA5" class="Default">
+      <node ref="J20" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
       <node ref="U1" pin="9" pinfunction="IOA5_9" pintype="bidirectional"/>
       <node ref="U4" pin="16" pinfunction="IOA5_16" pintype="bidirectional"/>
     </net>
     <net code="53" name="IOA6" class="Default">
+      <node ref="J20" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="IOA6_8" pintype="bidirectional"/>
       <node ref="U4" pin="15" pinfunction="IOA6_15" pintype="bidirectional"/>
     </net>
     <net code="54" name="IOA7" class="Default">
+      <node ref="J20" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="IOA7_7" pintype="bidirectional"/>
       <node ref="U4" pin="14" pinfunction="IOA7_14" pintype="bidirectional"/>
     </net>
@@ -6228,6 +6232,7 @@
     </net>
     <net code="97" name="Net-(J5-Pin_2)" class="Default">
       <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R74" pin="2" pintype="passive"/>
       <node ref="U10" pin="27" pinfunction="A14_27" pintype="input"/>
     </net>
     <net code="98" name="Net-(J6-Pad1)" class="Default">

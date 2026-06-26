@@ -24,16 +24,14 @@ V1.1
 * Option to supply +/-12V to edge connector for IF1 Serial support using PS1
 
 V1.2
-* Routed AY3-8910 IOB Bits0-7 to header   J18 Pins  1(Bit0)- 8(Bit7)
-* AY3-8910 IOA Bits 0-7 can be picked from U1 pins  7(Bit7)-14(Bit0)
-* AY3-8912 IOA Bits 1-7 can be picked from U4 Pins 14(Bit7)-20(Bit1)
-* AY3-8912 IOA Bit0 can be picked from J20
-
+* Routed AY3-8910 IOB Bits0-7 to header J18 Pins 1(Bit0)- 8(Bit7)
+* Routed AY3-891X IOA Bits0-7 to header J20 Pins 1(Bit0)- 8(Bit7)
+* Changed ROM select header to 2 pin rather than 3 pin.
 
 
 See https://github.com/konkotgit/ZX-48-Spider Rev 1.1 for original information on the ZX Spider, especially if you have issues
-1) with BRIGHT being low or not visible - Might not
-2) Tape loading issues.
+1) with BRIGHT being low or not visible - Might not, see above
+2) Tape loading issues
 
 
 
