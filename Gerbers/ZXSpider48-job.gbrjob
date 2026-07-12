@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.4"
     },
-    "CreationDate": "2026-06-26T12:18:08+01:00"
+    "CreationDate": "2026-07-12T14:45:02+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -28,53 +28,53 @@
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.2,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "ZXSpider48-F_Cu.gbr",
+      "Path": "ZXSpider48-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ZXSpider48-B_Cu.gbr",
+      "Path": "ZXSpider48-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ZXSpider48-F_Paste.gbr",
+      "Path": "ZXSpider48-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ZXSpider48-B_Paste.gbr",
+      "Path": "ZXSpider48-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ZXSpider48-F_Silkscreen.gbr",
+      "Path": "ZXSpider48-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ZXSpider48-B_Silkscreen.gbr",
+      "Path": "ZXSpider48-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ZXSpider48-F_Mask.gbr",
+      "Path": "ZXSpider48-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ZXSpider48-B_Mask.gbr",
+      "Path": "ZXSpider48-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ZXSpider48-Edge_Cuts.gbr",
+      "Path": "ZXSpider48-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

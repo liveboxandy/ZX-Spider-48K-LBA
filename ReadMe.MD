@@ -17,21 +17,32 @@ The board is designed to fit into the standard ZX Spectrum 48k or ZX Spectrum + 
 
 V1.0
 * Uses MiniDIN 9 Pin for RGB same as ZX Max 128 & ZX MAx PLusD rather than MinDIN 8.
-* Uses same Resistor values for RED/GREEN/BLUE/BRIGHT as ZX Max 128/PlusD/3/2A
+* Uses same Resistor values for RED/GREEN/BLUE/BRIGHT as ZX Max 128/PlusD/3/2A. 
 
 V1.1
-* Joystick can be disabled by removing J18
-* Option to supply +/-12V to edge connector for IF1 Serial support using PS1
+* Joystick can be disabled by removing J18.
+* Option to supply +/-12V to edge connector for IF1 Serial support using PS1.
 
 V1.2
-* Routed AY3-8910 IOB Bits0-7 to header J18 Pins 1(Bit0)- 8(Bit7)
-* Routed AY3-891X IOA Bits0-7 to header J20 Pins 1(Bit0)- 8(Bit7)
-* Changed ROM select header to 2 pin rather than 3 pin.
+* Routed AY3-8910 IOB Bits0-7 to header J18 Pins 1(Bit0)- 8(Bit7).
+* Routed AY3-891X IOA Bits0-7 to header J20 Pins 1(Bit0)- 8(Bit7).
+* Changed ROM select header to 2 pin rather than 3 pin so added pullup resistor.
+
+V1.3
+* Move MiniDIN 9 Pin right by ~2mm so it aligns better with the Video hole in the 14/48K and 48K+
+* cases. 
+
+V1.4 
+* Correct value of R58 to 470R
+* Add jumper J9 to select either 27C256 or 28C256
+* Buffer 14Mhz clock more. Use all spare gates
+* Label all jumpers
 
 
-See https://github.com/konkotgit/ZX-48-Spider Rev 1.1 for original information on the ZX Spider, especially if you have issues
-1) with BRIGHT being low or not visible - Might not, see above
-2) Tape loading issues
+
+See https://github.com/konkotgit/ZX-48-Spider Rev 1.1 for original information on the ZX Spider, especially if you have issues.
+1) with BRIGHT being low or not visible - Might not, see above.
+2) Tape loading issues.
 
 
 
