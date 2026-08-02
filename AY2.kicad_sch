@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "ZX SPIDER 48 LBA")
-		(date "2026-07-12")
-		(rev "1.4")
+		(date "2026-08-02")
+		(rev "1.5")
 		(company "Drawn By LiveBoxAndy ")
 		(comment 3 "See ReadMe.MD for more details")
 		(comment 4 "Based on schematics/layout from https://github.com/konkotgit/ZX-48-Spider Rev 1.1")

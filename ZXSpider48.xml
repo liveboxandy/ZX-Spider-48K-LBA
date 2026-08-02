@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>E:\Kicad\ZX Spider\ZXSpider48.kicad_sch</source>
-    <date>2026-07-12T14:50:22</date>
+    <source>E:\Kicad\ZXSpider48\ZXSpider48.kicad_sch</source>
+    <date>2026-08-02T16:49:23</date>
     <tool>Eeschema 10.0.4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ZX SPIDER 48 LBA</title>
         <company>Drawn By LiveBoxAndy </company>
-        <rev>1.4</rev>
-        <date>2026-07-12</date>
+        <rev>1.5</rev>
+        <date>2026-08-02</date>
         <source>ZXSpider48.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>ZX SPIDER 48 LBA</title>
         <company>Drawn By LiveBoxAndy </company>
-        <rev>1.4</rev>
-        <date>2026-07-12</date>
+        <rev>1.5</rev>
+        <date>2026-08-02</date>
         <source>AY2.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>ZX SPIDER 48 LBA</title>
         <company>Drawn By LiveBoxAndy </company>
-        <rev>1.4</rev>
-        <date>2026-07-12</date>
+        <rev>1.5</rev>
+        <date>2026-08-02</date>
         <source>Kempston.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>

@@ -38,6 +38,10 @@ V1.4
 * Buffer 14Mhz clock more. Use all spare gates
 * Label all jumpers
 
+V1.5
+* Move position and rotation Q2
+* Slight repositioning of J6 (9Pin MiniDIN), R15/16/17/18/73 and J18
+
 
 
 See https://github.com/konkotgit/ZX-48-Spider Rev 1.1 for original information on the ZX Spider, especially if you have issues.
