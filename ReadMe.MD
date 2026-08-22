@@ -42,7 +42,12 @@ V1.5
 * Move position and rotation Q2
 * Slight repositioning of J6 (9Pin MiniDIN), R15/16/17/18/73 and J18
 
-
+V1.6
+* Move J6 MiniDIN 9 right by 0.5mm and down by 1mm to better align with 48K+ case.
+* Move J11 Ear/Mic right by 0.5mm to better align with 48K+ case.
+* Move components below J6 and J5 down to give more space.
+* Move Edge Connector left by 0.8mm to centre within 48K+ case cutout.
+* Add liveboxandy's Spider 48K V1.6 to silkscreen to try to track different revisions of PCB.
 
 See https://github.com/konkotgit/ZX-48-Spider Rev 1.1 for original information on the ZX Spider, especially if you have issues.
 1) with BRIGHT being low or not visible - Might not, see above.

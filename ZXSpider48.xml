@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>E:\Kicad\ZXSpider48\ZXSpider48.kicad_sch</source>
-    <date>2026-08-02T16:49:23</date>
+    <source>E:\Kicad\ZX Spider 48K\ZXSpider48.kicad_sch</source>
+    <date>2026-08-22T10:30:17</date>
     <tool>Eeschema 10.0.4</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ZX SPIDER 48 LBA</title>
         <company>Drawn By LiveBoxAndy </company>
-        <rev>1.5</rev>
-        <date>2026-08-02</date>
+        <rev>1.6</rev>
+        <date>2026-08-22</date>
         <source>ZXSpider48.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
-        <comment number="3" value="See ReadMe.MD for more details"/>
+        <comment number="3" value="See README.MD for more details"/>
         <comment number="4" value="Based on schematics/layout from https://github.com/konkotgit/ZX-48-Spider Rev 1.1"/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
@@ -26,12 +26,12 @@
       <title_block>
         <title>ZX SPIDER 48 LBA</title>
         <company>Drawn By LiveBoxAndy </company>
-        <rev>1.5</rev>
-        <date>2026-08-02</date>
+        <rev>1.6</rev>
+        <date>2026-08-22</date>
         <source>AY2.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
-        <comment number="3" value="See ReadMe.MD for more details"/>
+        <comment number="3" value="See README.MD for more details"/>
         <comment number="4" value="Based on schematics/layout from https://github.com/konkotgit/ZX-48-Spider Rev 1.1"/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
@@ -44,12 +44,12 @@
       <title_block>
         <title>ZX SPIDER 48 LBA</title>
         <company>Drawn By LiveBoxAndy </company>
-        <rev>1.5</rev>
-        <date>2026-08-02</date>
+        <rev>1.6</rev>
+        <date>2026-08-22</date>
         <source>Kempston.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
-        <comment number="3" value="See ReadMe.MD for more details"/>
+        <comment number="3" value="See README.MD for more details"/>
         <comment number="4" value="Based on schematics/layout from https://github.com/konkotgit/ZX-48-Spider Rev 1.1"/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
