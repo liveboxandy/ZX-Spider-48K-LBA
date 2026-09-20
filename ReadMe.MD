@@ -49,6 +49,11 @@ V1.6
 * Move Edge Connector left by 0.8mm to centre within 48K+ case cutout.
 * Add liveboxandy's Spider 48K V1.6 to silkscreen to try to track different revisions of PCB.
 
+V1.7
+* Add R20 for auto RGB selection. can be replaced with wire link if there is a 180R-270R resistor in the cable between miniDIN Pin 2 and Scart Pin 16 or can be left unpopulated if manual selection is used.
+* Add R21 and D2 for auto AV 4:3 format. Requires PS1 (+12/-12V Converter) to be fitted. If manual selection, R21 and D2 can be left unpopulated.
+* If PS1 is fitted the serial comms on IF1 will still NOT work unless C1 in the IF1 is replaced with a wire link. (The IF1 expects  12VAC which it uses to create -12VDC. The DCDC converter PS1 provides -12VDC but it is blocked by C1 in the IF1.)
+
 See https://github.com/konkotgit/ZX-48-Spider Rev 1.1 for original information on the ZX Spider, especially if you have issues.
 1) with BRIGHT being low or not visible - Might not, see above.
 2) Tape loading issues.
