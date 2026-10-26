@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "ZX SPIDER 48 LBA")
-		(date "2026-09-20")
-		(rev "1.7")
+		(date "2026-10-26")
+		(rev "1.8")
 		(company "Drawn By LiveBoxAndy ")
 		(comment 3 "See README.MD for more details")
 		(comment 4 "Based on schematics/layout from https://github.com/konkotgit/ZX-48-Spider Rev 1.1")
@@ -24562,7 +24562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 299.72 230.505 0)
 			(hide yes)
 			(show_name no)
@@ -24575,7 +24575,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+		(property "Datasheet" ""
 			(at 294.64 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -24587,7 +24587,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 294.64 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -26455,7 +26455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 90.805 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -26468,7 +26468,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+		(property "Datasheet" ""
 			(at 92.71 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -26480,7 +26480,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+		(property "Description" ""
 			(at 92.71 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -26821,7 +26821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 67.945 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -26834,7 +26834,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+		(property "Datasheet" ""
 			(at 69.85 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -26846,7 +26846,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+		(property "Description" ""
 			(at 69.85 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -28781,7 +28781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 56.515 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -28794,7 +28794,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+		(property "Datasheet" ""
 			(at 58.42 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -28806,7 +28806,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+		(property "Description" ""
 			(at 58.42 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -31448,7 +31448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 80.645 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -31461,7 +31461,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+		(property "Datasheet" ""
 			(at 82.55 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -31473,7 +31473,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+		(property "Description" ""
 			(at 82.55 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -31793,7 +31793,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 67.945 178.054 0)
 			(hide yes)
 			(show_name no)
@@ -31806,7 +31806,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+		(property "Datasheet" ""
 			(at 69.85 172.974 0)
 			(hide yes)
 			(show_name no)
@@ -31818,7 +31818,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+		(property "Description" ""
 			(at 69.85 172.974 0)
 			(hide yes)
 			(show_name no)
@@ -32472,7 +32472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 56.515 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -32485,7 +32485,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+		(property "Datasheet" ""
 			(at 58.42 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -32497,7 +32497,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+		(property "Description" ""
 			(at 58.42 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -33763,7 +33763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 79.375 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -33776,7 +33776,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+		(property "Datasheet" ""
 			(at 81.28 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -33788,7 +33788,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+		(property "Description" ""
 			(at 81.28 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -35260,7 +35260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 92.075 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -35273,7 +35273,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+		(property "Datasheet" ""
 			(at 93.98 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -35285,7 +35285,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+		(property "Description" ""
 			(at 93.98 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -35558,18 +35558,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Manufacturer_Name" "Zilog"
-			(at 345.694 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "MF" ""
 			(at 347.472 114.808 0)
 			(hide yes)
@@ -35632,18 +35620,6 @@
 		)
 		(property "Check_prices" ""
 			(at 330.454 102.616 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Height" ""
-			(at 332.994 103.378 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35726,8 +35702,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
-			(at 346.456 110.49 0)
+		(property "HEIGHT" ""
+			(at 330.2 106.934 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35735,7 +35711,28 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER_NAME" "Zilog"
+			(at 330.2 106.934 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" ""
+			(at 330.2 106.934 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "12"

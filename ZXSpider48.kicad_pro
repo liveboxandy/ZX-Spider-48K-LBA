@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.7"
+      "sch_revision": "1.8"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -542,7 +542,7 @@
       "plot": "Gerbers",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ZXSpider48.step",
       "svg": "",
       "vrml": ""
     },
@@ -765,6 +765,24 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_PART_NUMBER",
+          "name": "MANUFACTURER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_NAME",
+          "name": "MANUFACTURER_NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT",
+          "name": "HEIGHT",
           "show": false
         }
       ],

@@ -54,6 +54,10 @@ V1.7
 * Add R21 and D2 for auto AV 4:3 format. Requires PS1 (+12/-12V Converter) to be fitted. If manual selection, R21 and D2 can be left unpopulated.
 * If PS1 is fitted the serial comms on IF1 will still NOT work unless C1 in the IF1 is replaced with a wire link. (The IF1 expects  12VAC which it uses to create -12VDC. The DCDC converter PS1 provides -12VDC but it is blocked by C1 in the IF1.)
 
+V1.8
+* Changed STO-92 Inline Transistor footprint to make easier soldering.
+* Moved AY chips down to leave gaps between each and also the DIO headers
+
 See https://github.com/konkotgit/ZX-48-Spider Rev 1.1 for original information on the ZX Spider, especially if you have issues.
 1) with BRIGHT being low or not visible - Might not, see above.
 2) Tape loading issues.
